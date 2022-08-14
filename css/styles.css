@@ -1,0 +1,95 @@
+body {
+    background-color: #091921;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Calculator Section */
+#calculator {
+    background-color:#091921;
+    width: 25%;
+    padding-top: 10%;
+    margin: auto;
+}
+
+.input-panel {
+    background-color: #fff;
+    padding: 8% 3% 8% 3%;
+    height: 180px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+.input-text {
+    font-size: 3rem;
+    color: #091921;
+}
+
+button {
+    width: 100%;
+    height: 100%;
+    border: solid 1px #091921;
+    background-color: rgb(12,39,52);
+    font-size: 1.8rem;
+    margin: 0;
+    color: #fff;
+    padding: 15% 10%;
+    transition: opacity 0.1s;
+}
+
+button:hover {
+    opacity: 60%;
+}
+
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+.col-6, .col-3 {
+    padding: 0;
+}
+
+#c-button {
+    background-color: red;
+}
+
+.plus-button-up button {
+    border-bottom: none;
+}
+
+.plus-button-down button {
+    border-top: none;
+}
+
+.equal-button {
+    background-color: #FFA500;
+}
+
+/* Footer Section */
+#footer {
+    padding: 3%;
+}
+.footer-container {
+    text-align: center;
+}
+
+.footer-text {
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem
+}
+
+.natroshvili {
+    text-decoration: none;
+    color: white;
+    transition: all 1s;
+}
+
+.natroshvili:hover {
+    font-size: 1.6rem;
+    color: #FFA500;
+    letter-spacing: 1px;
+}
